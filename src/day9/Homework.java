@@ -2,6 +2,8 @@ package day9;
 
 public class Homework {
 //https://www.geeksforgeeks.org/different-ways-reading-text-file-java/
+//https://www.geeksforgeeks.org/errors-v-s-exceptions-in-java/
+//https://www.geeksforgeeks.org/built-exceptions-java-examples/
   
   
   //
@@ -177,5 +179,164 @@ public class Homework {
 ////4. Run-time Exception
 
 
+//public class Test9
+//{
+//    public static void main(String[] args)
+//    {
+//        try
+//        {
+//            System.out.printf("1");
+//            int sum = 9 / 0;
+//            System.out.printf("2");
+//        }
+//        catch(ArithmeticException e)
+//        {
+//            System.out.printf("3");
+//        }
+//        catch(Exception e)
+//        {
+//            System.out.printf("4");
+//        }
+//        finally
+//        {
+//            System.out.printf("5");
+//        }
+//    }
+//}
+////a) 1325
+////b) 1345
+////c) 1342
+////d) 135
+//public class Test10
+//{
+//    private void m1()
+//    {
+//        m2();
+//        System.out.printf("1");
+//    }
+//    private void m2()
+//    {
+//        m3();
+//        System.out.printf("2");
+//    }
+//    private void m3()
+//    {
+//        System.out.printf("3");
+//        try
+//        {
+//            int sum = 4/0;
+//            System.out.printf("4");
+//        }
+//        catch(ArithmeticException e)
+//        {
+//            System.out.printf("5");
+//        }
+//
+//
+//        System.out.printf("7");
+//    }
+//    public static void main(String[] args)
+//    {
+//        Test obj = new Test();
+//        obj.m1();
+//    }
+//}
+////a) 35721
+////b) 354721
+////c) 3521
+////d) 35
+//public class Test11
+//{
+//    public static void main(String[] args)
+//    {
+//        try
+//        {
+//            System.out.printf("1");
+//            int data = 5 / 0;
+//        }
+//        catch(ArithmeticException e)
+//        {
+//            System.out.printf("2");
+//            System.exit(0);
+//        }
+//        finally
+//        {
+//            System.out.printf("3");
+//        }
+//        System.out.printf("4");
+//    }
+//}
+////a) 12
+////b) 1234
+////c) 124
+////d) 123
+//public class Test12
+//{
+//    public static void main(String[] args)
+//    {
+//        try
+//        {
+//            System.out.printf("1");
+//            int data = 5 / 0;
+//        }
+//        catch(ArithmeticException e)
+//        {
+//            Throwable obj = new Throwable("Sample");
+//            try
+//            {
+//                throw obj;
+//            }
+//            catch (Throwable e1)
+//            {
+//                System.out.printf("8");
+//            }
+//        }
+//        finally
+//        {
+//            System.out.printf("3");
+//        }
+//        System.out.printf("4");
+//    }
+//}
+////a) Compilation error
+////b) Runtime error
+////c) 1834
+////d) 134
+//public class Test13
+//{
+//    public static void main(String[] args)
+//    {
+//        try
+//        {
+//            System.out.printf("1");
+//            int value = 10 / 0;
+//            throw new IOException();
+//        }
+//        catch(EOFException e)
+//        {
+//            System.out.printf("2");
+//        }
+//        catch(ArithmeticException e)
+//        {
+//            System.out.printf("3");
+//        }
+//        catch(NullPointerException e)
+//        {
+//            System.out.printf("4");
+//        }
+//        catch(IOException e)
+//        {
+//            System.out.printf("5");
+//        }
+//        catch(Exception e)
+//        {
+//            System.out.printf("6");
+//        }
+//    }
+//}
+////a) 1346
+////b) 136726
+////c) 136
+////d) 13
 
 }
