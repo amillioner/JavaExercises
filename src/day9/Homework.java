@@ -1,7 +1,80 @@
 package day9;
 
 public class Homework {
+//https://www.geeksforgeeks.org/different-ways-reading-text-file-java/
+  
+  
+  //
+//class TECHNO4 {
+//    public
+//    static void main(String[] args)
+//    {
+//        throw new ArithmeticException();
+//    }
+//} 
+////Options:
+////1. RuntineException:java.lang.ArithmeticExcetion
+////2. RuntineException:/ by zero
+////3. RuntineException:java.lang.ArithmeticExcetion:/ by zero
+////4. RuntineException:ArithmeticExcetion
+//
+//class TECHNO5 {
+//    static ArithmeticException ae = new ArithmeticException();
+//    public static void main(String[] args)
+//    {
+//        throw ae;
+//    }
+//} 
+////Options:
+////1. RuntineException:java.lang.ArithmeticExcetion
+////2. RuntineException:/ by zero
+////3. RuntineException:java.lang.ArithmeticExcetion:/ by zero
+////4. RuntineException:ArithmeticExcetion
+//
+//class TECHNO6 {
+//    static ArithmeticException ae;
+//    public
+//    static void main(String[] args)
+//    {
+//        throw ae;
+//    }
+//} 
+////Options:
+////1. RuntineException:java.lang.ArithmeticExcetion
+////2. RuntineException:NullPointerException
+////3. No Output
+////4. RuntineException:ArithmeticExcetion
+//
+//class TECHNO7 {
+//    public static void main(String[] args)
+//    {
+//        throw new ArithmeticException("/ by zero");
+//        System.out.println("Hello TECHNO");
+//    }
+//} 
+////Options:
+////1. Run-time Exception
+////2. Compile-time error
+////3. No Output
+////4. Compile-time Exception
+//
+//class TECHNO8 {
+//    public
+//    static void main(String[] args)
+//    {
+//        throw new TECHNO();
+//        System.out.println("Hello TECHNO");
+//    }
+//} 
+////Options:
+////1. Hello TECHNO
+////2. No Output
+////3. Run-time Exception
+////4. Compile-time error
+////
+////The answer is option (4)
 
+  
 //class TECHNO throws ArithmeticException
 //{
 //    public static void main(String[]args) throws ArithmeticException
